@@ -9,3 +9,15 @@ else {
 }
 }
 )
+
+document.getElementById("Contact").addEventListener("click",function(){
+if(document.getElementById("header").textContent=="David Leo & PE"){
+  document.getElementById("header").textContent=""
+  document.getElementById('Contact').textContent="Contact";
+}
+else {
+    document.getElementById("header").textContent="David Leo & PE";
+    document.getElementById('Contact').textContent="Clear";
+}
+}
+)
