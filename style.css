@@ -10,16 +10,18 @@ body{
 }
 .flex{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     background: #008773;
     color: #fff;
+    justify-content: center;
+    align-items: center;
 }
-.absolute-center{
+ /* .absolute-center{
     top: 50%;
     left: 50%;
     transform : translate3d(-50%, -50%, 0);
     position: absolute;
-}
+}*/
 .no-padding{
     padding: 0 !important;
 }
@@ -29,6 +31,13 @@ body{
     border: 1px solid #fff!important;
     width: 100%;
     transition: 150ms;
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px;
 }
 .btn:hover{
     background: #fff;
